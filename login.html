@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+    <head>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Tangerine">
+        <script src="js/master.js"></script>
+    </head>
+    <body>
+        <div id="Title">
+            Crow River Dist.
+        </div>
+        <div id="navBar">
+            <ul class="ulNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown"><a href="contact.html">Contact</a>
+                    <div class="dropdown-content">    
+                        <a href="contact.html">Contact Form</a>
+                        <a href="emailExample.html">Email Form</a>
+                    </div>
+                </li>
+                <li><a class="active" href="login.html">Login</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="exampleProduct.html">Example Product</a></li>
+            </ul>
+        </div>
+        <form action="/action_page.php">
+            <div class="container">
+                <label for="accEmail">Account Email: </label>
+                <input type="text" placeholder="xxx@email.com" name="accEmail" required>
+                <label for="psw">Password: </label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <button id="loginBtn" type="submit">Login</button>
+            </div>
+        </form>
+    </body>
+</html>

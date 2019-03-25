@@ -1,0 +1,35 @@
+.product {
+    display: inline-block;
+    width: 100%;
+}
+.productImage {
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+.productInfo {
+    width: 50%;
+}
+.productInfo ul {
+    margin-left: 30%;
+}
+
+/*
+*
+*Table Styling
+*
+*/
+table, th, td {
+    border: 0.5px solid rgba(150, 155, 150, .3);
+    border-collapse: collapse;
+}
+.tableImg {
+    width: 20%;
+    height: 10%;
+}
+tr:nth-child(even) {
+    background-color: rgba(235, 244, 66, .2);
+
+}
